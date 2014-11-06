@@ -1,0 +1,22 @@
+source 'https://rubygems.org'
+
+ruby '2.1.2'
+
+gem 'pg'
+
+gem 'sinatra'
+gem 'sinatra-contrib'
+
+gem 'thin'
+
+gem 'activesupport'
+gem 'activerecord'
+gem 'rake'
+gem 'slim'
+gem 'sass'
+
+gem 'bcrypt'
+
+group :development do
+  gem 'shotgun'
+end
