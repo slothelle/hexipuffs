@@ -1,0 +1,9 @@
+// reset everything
+@import "normalize";
+
+// regular imports
+@import "var";
+
+body {
+  font-family: $font;
+}

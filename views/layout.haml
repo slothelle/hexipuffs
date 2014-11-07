@@ -2,8 +2,8 @@
 %html
   %head
     %title= "hexipuffs!"
-    = css :application
-    = js :application
+    != css :application
+    != js :application
   %body
     #container
-      = yield
+      =yield
