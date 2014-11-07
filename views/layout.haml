@@ -2,8 +2,7 @@
 %html
   %head
     %title= "hexipuffs!"
-    != css :application
-    != js :application
+    %link{ :href => "/css/main.css", :media => "screen", :rel => "stylesheet" }
   %body
     #container
       =yield
